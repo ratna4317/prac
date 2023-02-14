@@ -21,9 +21,9 @@ resources:
   webhooks:
     - webhook: testwebhook1
       connection: GitWebHook
-      # filters:
-      #   - path: ratna4317/prac
-      #     value: a
+      filters:
+        - path: ratna4317/prac
+          value: a
 steps:
 - task: PowerShell@2
   inputs:
